@@ -15,7 +15,7 @@ Routenoptimierung (HTML & Python)
       
   Füllstandprognose & Hotspot-Erkennung
     
-    - Datei: waste_baskets_with_hotspots.geojson
+      - Datei: waste_baskets_with_hotspots.geojson
       - Beschreibung: Eine erweiterte GeoJSON-Datendatei mit zusätzlichen Merkmalen (Feature Engineering). Mittels Clusteranalyse wurden darin Bereiche mit gehäuftem Abfallaufkommen (Müll-Hotspots) identifiziert
       - Kartenvisualisierung
       - Datei: nbg_wastebaskets_with_ID_map.html
@@ -28,4 +28,4 @@ Routenoptimierung (HTML & Python)
       - Beschreibung: Ein einfacher Prototyp zur Füllstandsmessung in Mülleimern, basierend auf einem ESP32-Mikrocontroller mit wasserdichtem Ultraschallsensor (JSN-SR04T) und einer LED-Anzeige. Der Sensor misst kontinuierlich den Abstand zum Abfall; bei Überschreiten eines   definierten Schwellwerts wird eine LED aktiviert. Der Prototyp ist funktionsfähig und für spätere Erweiterungen (z. B. Mobilfunk- oder Cloud-Anbindung) vorbereitet.
       - Zusätzliche Hinweise
       - Die Datei waste_baskets_with_hotspots.geojson kann gemeinsam mit der Routenplaner-Oberfläche RoutenOptimierer.html verwendet werden, um realitätsnahe Routenplanungen zu ermöglichen (z. B. durch Nutzung echter Standortdaten und identifizierter Hotspots).
-      Verantwortlich: Paul Städter
+      - Verantwortlich: Paul Städter
