@@ -12,7 +12,7 @@ Routenoptimierung (HTML & Python)
       - Beschreibung: Eine interaktive Oberfläche zur Optimierung von Entleerungsrouten für Mülleimer. Es werden verschiedene Optimierungsmethoden unterstützt (z. B. genetischer Algorithmus, klassische VRP-Ansätze oder Schwarmintelligenz-Methoden).
       - Verantwortlich: Souhaib Belkarim
       
-    Füllstandprognose & Hotspot-Erkennung
+  Füllstandprognose & Hotspot-Erkennung
     
       - Datei: waste_baskets_with_hotspots.geojson
       - Beschreibung: Eine erweiterte GeoJSON-Datendatei mit zusätzlichen Merkmalen (Feature Engineering). Mittels Clusteranalyse wurden darin Bereiche mit gehäuftem Abfallaufkommen (Müll-Hotspots) identifiziert
