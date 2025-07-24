@@ -7,11 +7,13 @@ Dies ist eine fusion aus den beiden Github Repositorys: https://github.com/Souy0
   Modulübersicht
   
 Routenoptimierung (HTML & Python)
+
       - Dateien: RoutenOptimierer.html, RouteOptimization (Original).py
       - Beschreibung: Eine interaktive Oberfläche zur Optimierung von Entleerungsrouten für Mülleimer. Es werden verschiedene Optimierungsmethoden unterstützt (z. B. genetischer Algorithmus, klassische VRP-Ansätze oder Schwarmintelligenz-Methoden).
       - Verantwortlich: Souhaib Belkarim
       
     Füllstandprognose & Hotspot-Erkennung
+    
       - Datei: waste_baskets_with_hotspots.geojson
       - Beschreibung: Eine erweiterte GeoJSON-Datendatei mit zusätzlichen Merkmalen (Feature Engineering). Mittels Clusteranalyse wurden darin Bereiche mit gehäuftem Abfallaufkommen (Müll-Hotspots) identifiziert
       - Kartenvisualisierung
@@ -20,6 +22,7 @@ Routenoptimierung (HTML & Python)
       - Verantwortlich: Entwicklung – Vincent Schreyer; Datenaufbereitung & Clustering – Lukas Lommer
       
     Sensorik (Arduino-Prototyp)
+    
       - Datei: Arduino Code.ino
       - Beschreibung: Ein einfacher Prototyp zur Füllstandsmessung in Mülleimern, basierend auf einem ESP32-Mikrocontroller mit wasserdichtem Ultraschallsensor (JSN-SR04T) und einer LED-Anzeige. Der Sensor misst kontinuierlich den Abstand zum Abfall; bei Überschreiten eines   definierten Schwellwerts wird eine LED aktiviert. Der Prototyp ist funktionsfähig und für spätere Erweiterungen (z. B. Mobilfunk- oder Cloud-Anbindung) vorbereitet.
       - Zusätzliche Hinweise
